@@ -1,0 +1,454 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.Alcremie-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 150px;
+    height: 210px;
+   box-shadow: 0 1px 5px rgb(0, 77, 243);
+}
+
+.card img {
+    width: 100%;
+    padding: 20px;
+}
+
+.card ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Alcremie-id{
+    font-size: 10px;
+}
+.Alcremie-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.Alcremie-type{
+    font-size: 12px;
+}
+.Fairy{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.Psychic{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px; 
+}
+.ponyta-id{
+    font-size: 10px;
+}
+.ponyta-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.ponyta-type{
+    font-size: 12px;
+}
+.water{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px; 
+}
+.seel-id{
+    font-size: 10px;
+}
+.seel-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.seel-type{
+    font-size: 12px;
+}
+.lickitung-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.lickitung-id{
+    font-size: 10px;
+}
+.lickitung-type{
+    font-size: 12px;
+
+}
+.normal{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px; 
+}
+.clefairy-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.clefairy-id{
+    font-size: 10px;
+}
+.clefairy-type{
+    font-size: 12px;
+}
+.vulpix-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.vulpix-id{
+    font-size: 10px;
+}
+.vulpix-type{
+    font-size: 12px;
+}
+.ice{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px; 
+}
+.ninetales-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.ninetales-id{
+    font-size: 10px;
+}
+.ninetales-type{
+    font-size: 12px;
+}
+.fire{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.pikachu-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.pikachu-id{
+    font-size: 10px;  
+}
+.pikachu-type{
+    font-size: 12px;
+}
+.electric{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.chansey-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.chansey-id{
+    font-size: 10px; 
+}
+.chansey-type{
+    font-size: 12px;
+}
+.normal{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.charmander-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.charmander-id{
+    font-size: 10px; 
+}
+.charmander-type{
+    font-size: 12px;
+}
+.Fire{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.squirtle-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.squirtle-id{
+    font-size: 10px;
+}
+.squirtle-type{
+    font-size: 12px;
+}
+.water{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.diglett-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.diglett-id{
+    font-size: 10px;
+    
+}
+.diglett-type{
+    font-size: 12px;
+}
+.ground{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.rapidash-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.rapidaash-id{
+    font-size: 10px;
+}
+.rapidash-type{
+    font-size: 12px;
+}
+.Fire{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.ditto-id{
+    font-size: 10px;
+}
+.ditto-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.ditto-type{
+    font-size: 12px;
+}
+.normal{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.eevee-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.eevee-id{
+    font-size: 10px;
+}
+.eevee-type{
+    font-size: 12px;
+}
+.normal{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.vaporeon-id{
+    font-size: 10px;
+}
+.vaporeon-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.vaporeon-type{
+    font-size: 12px;
+}
+.water{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.jolteon-id{
+    font-size: 10px;
+}
+.jolteon-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.jolteon-type{
+    font-size: 12px;
+}
+.electric{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.flareon-id{
+    font-size: 10px;
+}
+.flareon-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.flareon-type{
+    font-size: 12px;
+}
+.fire{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.flaaffy-id{
+    font-size: 10px;
+}
+.flaaffy-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.flaaffy-type{
+    font-size: 12px;
+}
+.electric{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.blissey-id{
+    font-size: 10px;
+}
+.blissey-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.blissey-type{
+    font-size: 12px;
+}
+.normal{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.wurmple-id{
+    font-size: 10px;
+}
+.wurmple-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.wurmple-type{
+    font-size: 12px;
+}
+.bug{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.plusle-id{
+    font-size: 10px;
+}
+.plusle-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.plusle-type{
+    font-size: 12px;
+}
+.electric{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.minun-id{
+    font-size: 10px;
+}
+.minun-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.minun-type{
+    font-size: 12px;
+}
+.electric{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.grumpig-id{
+    font-size: 10px;
+}
+.grumpig-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.grumpig-type{
+    font-size: 12px;
+}
+.Psychic{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+.piplup-id{
+    font-size: 10px;
+}
+.piplup-name{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.piplup-type{
+    font-size: 12px;
+}
+.water{
+    background-color: #f4df4eff(242, 163, 217);
+    border: 1px solid #ff41418c;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
